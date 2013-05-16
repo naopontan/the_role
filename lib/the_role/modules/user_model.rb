@@ -15,9 +15,9 @@ module TheRole
       section_name = obj.class.to_s.tableize
       return true  if moderator?(section_name)
 
-      return id == obj.id          if obj.is_a?(User)
-      return id == obj[:user_id]   if obj[:user_id]
-      return id == obj[:user][:id] if obj[:user]
+      return id == obj.id          if obj.is_a?(Staff)
+      return id == obj[:staff_id]   if obj[:staff_id]
+      return id == obj[:staff][:id] if obj[:staff]
       false
     end
 

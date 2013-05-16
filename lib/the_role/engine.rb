@@ -9,7 +9,7 @@ module TheRole
 
     config.to_prepare do
       Role.send :include, TheRole::RoleModel if the_class_exists? :Role
-      User.send :include, TheRole::UserModel if the_class_exists? :User
+      Staff.send :include, TheRole::UserModel if the_class_exists? :Staff
       ApplicationController.send :include, TheRole::Requires if the_class_exists? :ApplicationController
     end
   end

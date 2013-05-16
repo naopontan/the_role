@@ -15,7 +15,7 @@ module TheRole
       base.class_eval do
         attr_accessible :name, :title, :description, :the_role
 
-        has_many  :users
+        has_many  :staffs
         validates :name,        :presence => true, :uniqueness => true
         validates :title,       :presence => true, :uniqueness => true
         validates :description, :presence => true

@@ -1,0 +1,42 @@
+ja:
+  the_role:
+    role_created:             Role created
+    role_updated:             Role updated
+    role_deleted:             Role deleted
+    section_created:          Section created
+    section_not_created:      Section not created
+    section_rule_created:     "Section's rule created"
+    section_rule_not_created: "Section's rule not created"
+    section_rule_on:          "Section's rule is enable"
+    section_rule_off:         "Section's rule is disable"
+    state_not_changed:        "Section's rule not changed"
+    section_deleted:          Section deleted
+    section_not_deleted:      Section not deleted
+    section_rule_deleted:     "Section's rule deleted"
+    section_rule_not_deleted: "Section's rule not deleted"
+
+  admin:
+    roles:
+      new:
+        create: Create new Role
+        name: Name of role (underscored latin string)
+        title: Title of role (text)
+        description: Description of role (text)
+      role:
+        role_name: 'Role name:'
+        title:     'Title:'
+        role_description: 'Description of role:'
+        delete_section: Delete section
+        section_delete_confirm: 'Do you want to delete section?'
+        rule_delete_confirm: 'Do you want to delete rule?'
+        enable: '有効'
+        disable: '無効'
+        delete_rule: Delete rule
+        new_section_placeholder: New section name
+        create_section: Create new section
+        new_rule_placeholder: New rule name
+        create_rule: Create new rule
+      sidebar:
+        roles_list: Roles list
+        new_role: Create new role
+        delete_role_confirm: 'Are you sure? It can dangerous!'
